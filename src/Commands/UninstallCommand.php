@@ -1,7 +1,7 @@
 <?php
 
-namespace Src\Commands;
-// namespace Perrin\crudfast;
+// namespace Src\Commands;
+namespace Perrin;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
