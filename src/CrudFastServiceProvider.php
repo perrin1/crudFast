@@ -1,6 +1,6 @@
 <?php
 
-namespace Perrin;
+namespace Perrin\CrudFast;
 
 
 use Perrin\crudfast\InstallCommand;
