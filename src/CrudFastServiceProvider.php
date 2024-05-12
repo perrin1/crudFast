@@ -2,9 +2,8 @@
 
 namespace Perrin\CrudFast;
 
-
-use Perrin\crudfast\InstallCommand;
-use Perrin\crudfast\UninstallCommand;
+use Src\Commands\InstallCommand;
+use Src\Commands\UninstallCommand;
 use Illuminate\Support\ServiceProvider;
 
 

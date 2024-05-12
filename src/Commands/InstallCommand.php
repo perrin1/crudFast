@@ -1,6 +1,6 @@
 <?php
-namespace Perrin\crudfast;
-// namespace Src\Commands;
+// namespace Perrin\crudfast;
+namespace Src\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\File;
