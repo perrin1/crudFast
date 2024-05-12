@@ -1,5 +1,5 @@
 <?php
-namespace Perrin;
+namespace Perrin\Commands;
 // namespace Src\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Route;
