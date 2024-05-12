@@ -1,0 +1,36 @@
+{
+    "name": "perrin/crud-fast",
+    "description": "A package for generating CRUD operations in Laravel.",
+    "require": {
+        "php": "^8.0",
+        "illuminate/contracts": "^9.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.21"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Perrin\\CrudFast\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Perrin\\CrudFast\\CrudFastServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "perrin1",
+            "email": "perrinfanou6@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
