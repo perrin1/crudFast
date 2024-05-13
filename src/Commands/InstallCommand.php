@@ -18,7 +18,7 @@ class InstallCommand extends Command
         $this->call('make:model', ['name' => $modelName]);
 
         // Création de la migration
-        $this->call('make:migration', ['name' => 'create_' .$modelName. 's_table']);
+        $this->call('make:migration', ['name' => 'create' .$modelName. 's_table']);
 
         // Création du contrôleur
         $this->call('make:controller', ['name' => $modelName . 'Controller']);
