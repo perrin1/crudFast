@@ -3,9 +3,10 @@
 namespace Perrin\CrudFast;
 
 
-use Perrin\Commands\InstallCommand;
-use Perrin\Commands\UninstallCommand;
+
 use Illuminate\Support\ServiceProvider;
+use Perrin\CrudFast\Commands\InstallCommand;
+use Perrin\CrudFast\Commands\UninstallCommand;
 
 
 class CrudFastServiceProvider extends ServiceProvider
