@@ -9,7 +9,7 @@ use Perrin\CrudFast\Commands\InstallCommand;
 use Perrin\CrudFast\Commands\UninstallCommand;
 
 
-class CrudFastServiceProvider extends ServiceProvider
+final class CrudFastServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
@@ -29,14 +29,20 @@ class CrudFastServiceProvider extends ServiceProvider
     public function boot()
     {
         // Enregistrement de la commande install
-        $this->app->singleton('command.crudfast.install', function ($app) {
-            return new InstallCommand();
-        });
+        // $this->app->singleton('command.crudfast.install', function ($app) {
+        //     return new InstallCommand();
+        // });
+        if (! $this->app->runningInConsole()) {
+            return;
+        }
 
-        // Enregistrement de la commande uninstall
-        $this->app->singleton('command.crudfast.uninstall', function ($app) {
-            return new UninstallCommand();
-        });
+        $this->commands([
+           InstallCommand::class,
+        ]);
+        // // Enregistrement de la commande uninstall
+        // $this->app->singleton('command.crudfast.uninstall', function ($app) {
+        //     return new UninstallCommand();
+        // });
 
         // Enregistrement des commandes
         $this->commands([
