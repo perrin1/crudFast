@@ -28,11 +28,7 @@ class InstallCommand extends Command
 
         // Configuration des routes pour CRUD
         // Ajoutez votre logique pour configurer les routes ici
-
-        $this->info("CRUD Fast for $modelName has been installed successfully!");
     
-
-        
         // Configuration des routes pour CRUD
         $routeContent = <<<PHP
             // Routes spécifiques pour $modelName
