@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\File;
 class InstallCommand extends Command
 {
-    protected $signature = 'crudfast:create {modelName}';
+    protected $signature = 'crudfast:install {modelName}';
     protected $description = 'Create CRUD scaffolding for a given model';
 
     public function handle()
