@@ -6,8 +6,8 @@
 - `php artisan make:controller MonModelController`
 - `php artisan make:migration create_example_table`
 - `Route::resource('home', 'HomeController');`
-- `......`
-Ce package a été créer dans l'optique de reduire le nombre de commande usuel à taper dans un projet laravel et aussi facciliter les vues usuels qu'on a l'habitude de créer quand il nous revient de faire un CRUD rapide sur un model <br>
+- `......` <br>
+Ce package a été créer dans l'optique de reduire le nombre de commande usuel à taper dans un projet laravel et aussi facciliter les vues usuels qu'on a l'habitude de créer quand il nous revient de faire un CRUD rapide sur un model. <br>
 La prochaine étape serait  de :
 ` configurer les migrations par un prompte`  , 
 `faire le contenue par defaut des vues` et 
@@ -26,7 +26,7 @@ Ce package vous crée :
 
 # Comment installer et exécuter ce package
 
-préalablement il faut etre dans un environnement du langage `php` avec un de ces framworkes (laravel de preferences)
+préalablement il faut être dans un environnement du langage `php` avec un de ces framworkes (laravel de preference); utiliser la commande : 
 
 ```bash
 composer require perrin/crud-fast:dev-main
