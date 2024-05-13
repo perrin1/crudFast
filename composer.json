@@ -18,8 +18,8 @@
         "laravel": {
             "providers": [
                 "Perrin\\CrudFast\\CrudFastServiceProvider"
-                
             ]
+            
         }
     },
     "authors": [
