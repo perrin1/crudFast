@@ -71,10 +71,10 @@ php artisan crudfast:install  Persone
 
 <p align="center"><img src="/art/install.jpg" alt="install img"></p>
 
-- ` D'ésinstalation  `
+- ` Désinstalation  `
 
 ```bash
-php artisan crudfast:install  Persone
+php artisan crudfast:uninstall  Persone
 ```
 <p align="center"><img src="/art/uninstall.jpg" alt="uninstall img"></p>
 
