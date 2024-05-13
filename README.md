@@ -15,10 +15,10 @@ La prochaine étape serait  de :
 
 Ce package vous crée :
 
-- `les vues`
+
 - `les Controllers`
-- `les migrations`
-- `les Views`
+- `les Migrations`
+- `les Vues`
     - `create.blade.php `
     - `edit.blade.php `
     - `show.blade.php `
