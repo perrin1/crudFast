@@ -36,6 +36,10 @@ composer require perrin/crud-fast:dev-main
 php artisan crudfast:install  Exemple
 ```
 
+### NB: 
+Dans votre `web.php` n'oublier pas d'importé la classe de vôtre controller prélablement créer
+
+
 - ` D'ésinstalation d'un exemple  `
 
 
