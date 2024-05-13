@@ -80,7 +80,7 @@ php artisan crudfast:install  Persone
 
 
 ## Conclusion
-Ce package vous permet d'allez plus vite dans vos mise en place de crud ou autre creation de MVC. Suis à la version 1.0 est d'autre ameliorations viendront
+Ce package vous permet d'allez plus vite dans vos mise en place de CRUD ou autre creation de MVC. Suis à la version 1.0 et d'autre ameliorations viendront
 
 
 Je vous laisse appliquer 📖
