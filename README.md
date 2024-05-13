@@ -15,6 +15,7 @@ Ce package vous crée :
 
 - `les vues`
 - `les Controllers`
+- `les migrations`
 - `les Views`
     - `create.blade.php `
     - `edit.blade.php `
