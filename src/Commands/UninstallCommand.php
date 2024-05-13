@@ -36,7 +36,7 @@ class UninstallCommand extends Command
     protected function deleteModel($modelName)
     {
         // Supprimer le fichier du modèle
-        $modelPath = app_path("{$modelName}.php");
+        $modelPath = app_path("Models/{$modelName}.php");
         if (File::exists($modelPath)) {
             File::delete($modelPath);
         }

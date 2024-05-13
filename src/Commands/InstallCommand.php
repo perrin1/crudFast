@@ -18,7 +18,7 @@ class InstallCommand extends Command
         $this->call('make:model', ['name' => $modelName]);
 
         // Création de la migration
-        $this->call('make:migration', ['name' => 'create_' . $modelName . '_table']);
+        $this->call('make:migration', ['name' => 'create_' .$modelName. 's_table']);
 
         // Création du contrôleur
         $this->call('make:controller', ['name' => $modelName . 'Controller']);
@@ -29,7 +29,7 @@ class InstallCommand extends Command
         // Configuration des routes pour CRUD
         // Ajoutez votre logique pour configurer les routes ici
 
-        $this->info("CRUD Really for $modelName has been installed successfully!");
+        $this->info("CRUD Fast for $modelName has been installed successfully!");
     
 
         
@@ -67,7 +67,7 @@ class InstallCommand extends Command
             file_put_contents($routeFile, $routeContent, FILE_APPEND);
         }
 
-        $this->info("CRUD Really for $modelName has been installed successfully!");
+        $this->info("CRUD Fast for $modelName has been installed successfully!");
     }
 
 
